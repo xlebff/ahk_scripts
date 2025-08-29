@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
 #NoTrayIcon
+#SingleInstance Force
 
 Hotkey("+F1", (*) => Send("{Media_Prev}"))
 Hotkey("+F2", (*) => Send("{Media_Play_Pause}"))
